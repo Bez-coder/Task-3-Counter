@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
 const App = () => {
-  // State to manage the count
+ 
   const [count, setCount] = useState(0);
 
-  // Functions to handle button clicks
+ 
   const increment = () => setCount(count + 1);
   const decrement = () => setCount(count - 1);
   const reset = () => setCount(0);
@@ -15,7 +15,7 @@ const App = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        minHeight: '100vh',   // Full viewport height
+        minHeight: '100vh',   
         backgroundColor: '#f2f2f2',
       }}
     >
